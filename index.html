@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Moksha Patel | Portfolio</title>
+    <title>Moksha Patel | Computer Science & Engineering</title>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +19,10 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -63,10 +67,11 @@
 
     <div class="hero-content">
 
-        <p class="hello">👋 Hello, I'm</p>
-
-        <h1>Moksha Patel</h1>
-
+        <p class="hero-greeting">HELLO, I'M</p>
+        <h1 class="hero-name">
+            <span>Moksha</span>
+            <span>Patel</span>
+        </h1>
         <h2>
             <span id="typing"></span>
         </h2>
@@ -78,15 +83,33 @@
             problems and continuously learning modern technologies.
 
         </p>
+        <div class="hero-details">
+
+    <div class="hero-detail">
+        <span>Semester</span>
+        <strong>5th</strong>
+    </div>
+
+    <div class="hero-detail">
+        <span>Branch</span>
+        <strong>CSE</strong>
+    </div>
+
+    <div class="hero-detail">
+        <span>CGPA</span>
+        <strong>9.07</strong>
+    </div>
+
+    </div>
 
         <div class="hero-buttons">
 
-            <a href="assets/Moksha_Patel_Modern_One_Page_CV.docx" class="btn" download>
-                Download Resume
+            <a href="#about" class="explore-btn">
+                Let's Explore <span>↓</span>
+                
             </a>
-
-            <a href="#contact" class="btn-outline">
-                Contact Me
+            <a href="#contact" class="contact-btn">
+                Contact Me!
             </a>
 
         </div>
@@ -95,91 +118,207 @@
 
     <div class="hero-image">
 
-        <img src="assets/image.png" alt="Moksha Patel">
-
+    <!-- Floating Card 1 -->
+    <div class="floating-card card-top">
+        <span class="floating-icon">⌘</span>
+        <div>
+            <strong>Web Development</strong>
+            <small>Building & Creating</small>
+        </div>
     </div>
 
+    <!-- Floating Card 2 -->
+    <div class="floating-card card-left">
+        <span class="floating-icon">✦</span>
+        <div>
+            <strong>Problem Solving</strong>
+            <small>Think • Solve • Improve</small>
+        </div>
+    </div>
+
+    <!-- Floating Card 3 -->
+    <div class="floating-card card-bottom">
+        <span class="floating-icon">⌁</span>
+        <div>
+            <strong>Data Science</strong>
+            <small>Learning & Exploring</small>
+        </div>
+    </div>
+
+    <!-- Small decorative elements -->
+    <span class="tech-symbol symbol-one">&lt;/&gt;</span>
+    <span class="tech-symbol symbol-two">{ }</span>
+    <span class="tech-dot dot-one"></span>
+    <span class="tech-dot dot-two"></span>
+
+    <!-- Your existing photo -->
+    <img src="assets/image.png" alt="Moksha Patel">
+
+</div>
+
 </section>
-
-
-
-    <!--================ ABOUT SECTION ================-->
-
-<section class="section reveal" id="about">
-
-
-    <h2 class="section-title">
-        About Me
-    </h2>
+<!-- ================= ABOUT SECTION ================= -->
+<section class="about-section" id="about">
 
     <div class="about-container">
 
-        <!-- Left Side -->
-
-        <div class="about-image">
-
-            <img src="assets/profile.jpeg" alt="Profile">
-
+        <!-- Section Heading -->
+        <div class="section-title about-title">
+            <p>A LITTLE ABOUT ME</p>
         </div>
 
-        <!-- Right Side -->
 
-        <div class="about-content">
+        <div class="about-layout">
 
-            <h3>Computer Engineering Student</h3>
+            <!-- ================= LEFT SIDE ================= -->
+            <div class="about-left">
 
-            <p>
+                <h2>More Than<br>Just Code</h2>
 
-                I'm a passionate Computer Engineering student currently pursuing
-                my Bachelor's degree.
+                <p class="about-description">
+                    I’m a Computer Science Engineering student who enjoys
+                    turning ideas into practical and creative digital
+                    experiences. My journey has been about exploring
+                    technology, building new skills, and learning through
+                    every challenge and project.
+                </p>
 
-                I enjoy creating modern websites, solving programming problems,
-                and continuously learning new technologies.
 
-                My goal is to become a Full Stack Developer and contribute to
-                impactful software projects.
+                <!-- BUILD / LEARN / GROW -->
+                <div class="about-values">
 
-            </p>
+                    <div class="value-card">
+                        <span class="value-number">01</span>
+                        <h3>BUILD</h3>
+                        <p>
+                            Turning ideas into practical projects and
+                            digital experiences.
+                        </p>
+                    </div>
 
-            <div class="about-cards">
+                    <div class="value-card">
+                        <span class="value-number">02</span>
+                        <h3>LEARN</h3>
+                        <p>
+                            Exploring new technologies and learning
+                            something new every day.
+                        </p>
+                    </div>
 
-                <div class="about-card">
-
-                    <i class="fa-solid fa-user-graduate"></i>
-
-                    <h4>Education</h4>
-
-                    <p>B.E. Computer Engineering</p>
-
-                </div>
-
-                <div class="about-card">
-
-                    <i class="fa-solid fa-code"></i>
-
-                    <h4>Tech Stack</h4>
-
-                    <p>HTML CSS Java JavaScript MySQL</p>
-
-                </div>
-
-                <div class="about-card">
-
-                    <i class="fa-solid fa-award"></i>
-
-                    <h4>Certificate</h4>
-
-                    <p>Full Stack Web Development</p>
+                    <div class="value-card">
+                        <span class="value-number">03</span>
+                        <h3>GROW</h3>
+                        <p>
+                            Improving my skills through practice,
+                            challenges and experience.
+                        </p>
+                    </div>
 
                 </div>
 
-                <div class="about-card">
+            </div>
 
-                    <i class="fa-solid fa-bullseye"></i>
 
-                    <h4>Career Goal</h4>
+            <!-- ================= RIGHT SIDE ================= -->
+            <div class="journey-section">
 
-                    <p>Software Engineer</p>
+                <div class="journey-heading">
+                    <span>MY JOURNEY</span>
+                    <h3>Learning, Building & Growing</h3>
+                </div>
+
+
+                <div class="journey-timeline">
+
+                    <!-- 2024 -->
+                    <div class="journey-item">
+
+                        <div class="journey-year">
+                            2024
+                        </div>
+
+                        <div class="journey-line">
+                            <span class="journey-dot"></span>
+                        </div>
+
+                        <div class="journey-content">
+                            <h4>The Beginning</h4>
+                            <p>
+                                Started exploring Computer Science and
+                                discovering my interest in technology
+                                and programming.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- 2025 -->
+                    <div class="journey-item">
+
+                        <div class="journey-year">
+                            2025
+                        </div>
+
+                        <div class="journey-line">
+                            <span class="journey-dot"></span>
+                        </div>
+
+                        <div class="journey-content">
+                            <h4>Exploring & Learning</h4>
+                            <p>
+                                Built my foundation in programming,
+                                web development, databases and
+                                problem-solving.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- 2026 -->
+                    <div class="journey-item">
+
+                        <div class="journey-year">
+                            2026
+                        </div>
+
+                        <div class="journey-line">
+                            <span class="journey-dot"></span>
+                        </div>
+
+                        <div class="journey-content">
+                            <h4>Building & Growing</h4>
+                            <p>
+                                Working on projects, strengthening my
+                                technical skills and exploring how
+                                technology can solve real-world problems.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- NEXT -->
+                    <div class="journey-item">
+
+                        <div class="journey-year">
+                            NEXT
+                        </div>
+
+                        <div class="journey-line">
+                            <span class="journey-dot"></span>
+                        </div>
+
+                        <div class="journey-content">
+                            <h4>What’s Ahead</h4>
+                            <p>
+                                Keep learning, keep building and turn
+                                ideas into meaningful projects.
+                            </p>
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -190,102 +329,184 @@
     </div>
 
 </section>
-<!--================ SKILLS =================-->
 
-<section class="section reveal" id="skills">
-    <h2 class="section-title">My Skills</h2>
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <div class="section-title">
+        <p>Where Curiosity Meets Technology!</p>
+        <h2>MY SKILLS & LEARNING JOURNEY</h2>
+    </div>
 
     <div class="skills-container">
 
-        <div class="skill-category">
+        <!-- Web Development -->
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fas fa-globe"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>
+                Building responsive and user-friendly websites with a focus
+                on clean design and functionality.
+            </p>
+        </div>
 
-            <h3>Frontend</h3>
+        <!-- Problem Solving -->
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fas fa-puzzle-piece"></i>
+            </div>
+            <h3>Problem Solving</h3>
+            <p>
+                Breaking down challenges into smaller steps and finding
+                practical solutions.
+            </p>
+        </div>
 
-            <div class="skill-grid">
+        <!-- Logical Thinking -->
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fas fa-lightbulb"></i>
+            </div>
+            <h3>Logical Thinking</h3>
+            <p>
+                Developing structured thinking and reasoning to approach
+                technical challenges effectively.
+            </p>
+        </div>
 
-                <div class="skill-card">
-                    <i class="fa-brands fa-html5"></i>
-                    <span>HTML</span>
+        <!-- Data Science-->
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fas fa-robot"></i>
+            </div>
+            <h3>Data Science
+            </h3>
+            <p>Developing an understanding of data analysis and visualization 
+                while exploring how data can support meaningful decisions.
+                
+            </p>
+        </div>
+
+        <!-- Continuous Learning -->
+        <div class="skill-card">
+            <div class="skill-icon">
+                <i class="fas fa-rocket"></i>
+            </div>
+            <h3>Continuous Learning</h3>
+            <p>
+                Exploring new technologies and continuously improving my
+                technical and creative skills.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= EDUCATION SECTION ================= -->
+<section class="edu-section" id="education">
+
+    <div class="edu-container">
+
+        <!-- Section Heading -->
+        <div class="edu-section-heading">
+            <span class="edu-heading-line"></span>
+            <span>EDUCATION</span>
+        </div>
+
+
+        <!-- Main Education Card -->
+        <div class="edu-card">
+
+            <!-- Top Area -->
+            <div class="edu-card-top">
+
+                <div class="edu-icon">
+                    <i class="fas fa-graduation-cap"></i>
                 </div>
 
-                <div class="skill-card">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <span>CSS</span>
-                </div>
-
-                <div class="skill-card">
-                    <i class="fa-brands fa-js"></i>
-                    <span>JavaScript</span>
+                <div class="edu-date">
+                    2024 — 2028
                 </div>
 
             </div>
 
-        </div>
 
-        <div class="skill-category">
+            <!-- College Information -->
+            <div class="edu-main-content">
 
-            <h3>Programming</h3>
+                <span class="edu-location">
+                    GTU · AHMEDABAD, INDIA
+                </span>
 
-            <div class="skill-grid">
+                <h2>
+                    New LJ Institute of
+                    <br>
+                    Engineering and Technology
+                </h2>
 
-                <div class="skill-card">
-                    <i class="fa-solid fa-c"></i>
-                    <span>C</span>
-                </div>
+                <p class="edu-degree">
+                    BE · Computer Science & Engineering
+                </p>
 
-                <div class="skill-card">
-                    <i class="fa-solid fa-code"></i>
-                    <span>C++</span>
-                </div>
-
-                <div class="skill-card">
-                    <i class="fa-brands fa-java"></i>
-                    <span>Java</span>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="skill-category">
-
-            <h3>Database</h3>
-
-            <div class="skill-grid">
-
-                <div class="skill-card">
-                    <i class="fa-solid fa-database"></i>
-                    <span>MySQL</span>
-                </div>
-
-                <div class="skill-card">
-                    <i class="fa-solid fa-server"></i>
-                    <span>SQL</span>
-                </div>
+                <p class="edu-description">
+                    Currently pursuing my BE in Computer Science Engineering,
+                    building a strong foundation in programming, web development,
+                    databases, and problem-solving. My academic journey continues
+                    to help me turn concepts into practical skills and projects.
+                </p>
 
             </div>
 
-        </div>
 
-        <div class="skill-category">
+            <!-- Academic Highlights -->
+            <div class="edu-bottom">
 
-            <h3>Tools</h3>
+                <div class="edu-stats">
 
-            <div class="skill-grid">
+                    <div class="edu-stat">
 
-                <div class="skill-card">
-                    <i class="fa-brands fa-git-alt"></i>
-                    <span>Git</span>
+                        <span class="edu-stat-number">
+                            5<sup>th</sup>
+                        </span>
+
+                        <span class="edu-stat-label">
+                            CURRENT SEMESTER
+                        </span>
+
+                    </div>
+
+
+                    <div class="edu-stat">
+
+                        <span class="edu-stat-number edu-cpi">
+                            9.07
+                        </span>
+
+                        <span class="edu-stat-label">
+                            CURRENT CPI
+                        </span>
+
+                    </div>
+
                 </div>
 
-                <div class="skill-card">
-                    <i class="fa-brands fa-github"></i>
-                    <span>GitHub</span>
-                </div>
 
-                <div class="skill-card">
-                    <i class="fa-solid fa-laptop-code"></i>
-                    <span>VS Code</span>
+                <!-- Languages -->
+                <div class="edu-languages">
+
+                    <span class="edu-language-title">
+                        LANGUAGES
+                    </span>
+
+                    <div class="edu-language-list">
+
+                        <span>English</span>
+                        <span>Hindi</span>
+                        <span>Gujarati</span>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -295,227 +516,319 @@
     </div>
 
 </section>
-<!--================ EDUCATION =================-->
 
-<section class="section reveal" id="education">
+<!-- ================= CERTIFICATES SECTION ================= -->
+<section class="certificate-section" id="certificates">
 
-    <h2 class="section-title">Education</h2>
+    <div class="certificate-container">
 
-    <div class="timeline">
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-
-                <span class="year">2024 - Present</span>
-
-                <h3>B.E. Computer Engineering</h3>
-
-                <p>
-                    Gujarat Technological University
-                </p>
-
-            </div>
-
+        <!-- Section Heading -->
+        <div class="certificate-heading">
+            <span class="certificate-line"></span>
+            <span>CERTIFICATES</span>
         </div>
 
-        <div class="timeline-item">
-
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-
-                <span class="year">2024</span>
-
-                <h3>Higher Secondary (GSEB)</h3>
-
-                <p>
-                    Percentile: <strong>79.51</strong>
-                </p>
-
-            </div>
-
+        <div class="certificate-intro">
+            <h2>Learning Beyond the Classroom</h2>
+            <p>
+                Each certificate represents a new skill learned and another step forward in my journey.
+            </p>
         </div>
 
-        <div class="timeline-item">
 
-            <div class="timeline-dot"></div>
-
-            <div class="timeline-content">
-
-                <span class="year">2022</span>
-
-                <h3>Secondary School (GSEB)</h3>
-
-                <p>
-                    Percentile: <strong>91%</strong>
-                </p>
-
-            </div>
-
-        </div>
-     </div>
-</section>
-
-<!--================ CERTIFICATES =================-->
-
-<!--================ CERTIFICATES =================-->
-
-<section class="section reveal" id="certificates">
-
-    <h2 class="section-title">Certificates</h2>
-
-    <div class="certificates-container">
-
-        <!-- Certificate 1 -->
-        <div class="certificate-card">
+        <!-- ================= CERTIFICATE 1 ================= -->
+        <div class="certificate-box">
 
             <div class="certificate-icon">
-                <i class="fa-solid fa-award"></i>
+                <i class="fas fa-award"></i>
             </div>
 
-            <div class="certificate-content">
+            <div class="certificate-info">
+
+                <span class="certificate-label">CERTIFICATE</span>
 
                 <h3>
-                    Full Stack Web Development -
-                    Introduction to Java Programming
+                    Full Stack Web Development – Introduction to Java Programming
                 </h3>
 
-                <p>
-                    New LJ Institute of Technology Issued Certificate
+                <p class="certificate-issuer">
+                    New LJ Institute of Engineering and Technology
                 </p>
 
-                <a href="assets/fswd-1.pdf"
-                   class="btn"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    View Certificate
-                </a>
-
             </div>
+
+            <a href="assets/fswd-1.pdf" class="certificate-btn">
+                VIEW CERTIFICATE
+                <span>→</span>
+            </a>
 
         </div>
 
 
-        <!-- Certificate 2 -->
-        <div class="certificate-card">
+        <!-- Separator -->
+        <div class="certificate-separator"></div>
+
+
+        <!-- ================= CERTIFICATE 2 ================= -->
+        <div class="certificate-box">
 
             <div class="certificate-icon">
-                <i class="fa-solid fa-award"></i>
+                <i class="fas fa-award"></i>
             </div>
 
-            <div class="certificate-content">
+            <div class="certificate-info">
+
+                <span class="certificate-label">CERTIFICATE</span>
 
                 <h3>
-                    Full Stack Web Development -
-                    Data Structures using JAVA
+                    Full Stack Web Development – Data Structures using JAVA
                 </h3>
 
-                <p>
-                    New LJ Institute of Technology Issued Certificate
+                <p class="certificate-issuer">
+                    New LJ Institute of Engineering and Technology
                 </p>
 
-                <a href="assets/fswd-2.pdf"
-                   class="btn"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    View Certificate
-                </a>
-
             </div>
+
+            <a href="assets/certificate-2.pdf" class="certificate-btn">
+                VIEW CERTIFICATE
+                <span>→</span>
+            </a>
 
         </div>
 
 
-        <!-- Certificate 3 -->
-        <div class="certificate-card">
+        <!-- Separator -->
+        <div class="certificate-separator"></div>
+
+
+        <!-- ================= CERTIFICATE 3 ================= -->
+        <div class="certificate-box">
 
             <div class="certificate-icon">
-                <i class="fa-solid fa-award"></i>
+                <i class="fas fa-award"></i>
             </div>
 
-            <div class="certificate-content">
+            <div class="certificate-info">
+
+                <span class="certificate-label">CERTIFICATE</span>
 
                 <h3>
-                    Full Stack Web Development -
-                    Front End Web Development:
+                    Full Stack Web Development – Front End Web Development:
                     HTML5, CSS3 and JavaScript
                 </h3>
 
-                <p>
-                    New LJ Institute of Technology Issued Certificate
+                <p class="certificate-issuer">
+                    New LJ Institute of Engineering and Technology
                 </p>
 
-                <a href="assets/fswd-3.pdf"
-                   class="btn"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    View Certificate
-                </a>
-
             </div>
+
+            <a href="assets/certificate-3.pdf" class="certificate-btn">
+                VIEW CERTIFICATE
+                <span>→</span>
+            </a>
 
         </div>
 
     </div>
 
 </section>
-
-
-
-<!--================ CONTACT =================-->
-
-<section class="section reveal" id="contact">
-<h2 class="section-title">Contact Me</h2>
-
-    <p class="contact-intro">
-      Feel free to connect with me for opportunities,
-        collaborations, or just to say hello!
-    </p>
+<!-- ================= CONTACT SECTION ================= -->
+<section class="contact-section" id="contact">
 
     <div class="contact-container">
 
-        <div class="contact-card">
-
-            <i class="fas fa-envelope"></i>
-
-            <h3>Email</h3>
-
-            <p>moxapatel1112@gmail.com</p>
-
-            <a href="mailto:moxapatel1112@gmail.com">
-                Send Email
-            </a>
-
+        <!-- Section Heading -->
+        <div class="contact-heading">
+            <span class="contact-line"></span>
+            <span>CONTACT</span>
         </div>
 
-        <div class="contact-card">
+        <!-- Main Heading -->
+        <div class="contact-intro">
+            <h2>
+                Have an Idea?
+                <br>
+                <span>Let's Talk.</span>
+            </h2>
 
-            <i class="fab fa-github"></i>
-
-            <h3>GitHub</h3>
-
-            <p>Check out my GitHub</p>
-
-            <a href="https://github.com/mokshapatel1112" target="_blank">
-                Visit GitHub
-            </a>
-
+            <p>
+                I'm always open to learning, collaborating,
+                and exploring new opportunities.
+            </p>
         </div>
 
-        <div class="contact-card">
 
-            <i class="fab fa-linkedin"></i>
+        <!-- Contact Content -->
+        <div class="contact-content">
 
-            <h3>LinkedIn</h3>
 
-            <p>Let's connect professionally</p>
+            <!-- ================= LEFT SIDE ================= -->
+            <div class="contact-info">
 
-            <a href="https://www.linkedin.com/in/moksha-patel-945558306/" target="_blank">
-                Visit LinkedIn
-            </a>
+                <span class="contact-small-title">
+                    START A CONVERSATION
+                </span>
+
+                <h3>Let's connect.</h3>
+
+                <p class="contact-description">
+                    Whether it's a project, collaboration, opportunity,
+                    or simply a hello — feel free to reach out.
+                </p>
+
+
+                <!-- Email -->
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div class="contact-details">
+                        <span>Email</span>
+
+                        <a href="mailto:moxapatel1112@email.com">
+                            moxapatel1112@email.com
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <!-- LinkedIn -->
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+
+                    <div class="contact-details">
+                        <span>LinkedIn</span>
+
+                        <a href="https://www.linkedin.com/in/moxapatel" target="_blank">
+                            LinkedIn Profile
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <!-- GitHub -->
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+
+                    <div class="contact-details">
+                        <span>GitHub</span>
+
+                        <a href="https://github.com/moxapatel" target="_blank">
+                            GitHub Profile
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <!-- Location -->
+                <div class="contact-item location-item">
+
+                    <div class="contact-icon">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+
+                    <div class="contact-details">
+                        <span>Location</span>
+
+                        <p>
+                            Ahmedabad, Gujarat
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= RIGHT SIDE ================= -->
+            <div class="contact-form-container">
+
+                <h3>Send a Message</h3>
+
+                <form
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    class="contact-form"
+>
+<input type="hidden" name="form-name" value="contact">
+
+                    <!-- Name -->
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="form-group">
+
+                        <label for="email">
+                            Your Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Message -->
+                    <div class="form-group">
+
+                        <label for="message">
+                            Your Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Submit -->
+                 <button type="button" class="send-message-btn">
+    Send Message
+    <i class="fas fa-paper-plane"></i>
+</button>
+
+                </form>
+
+            </div>
 
         </div>
 
@@ -523,37 +836,73 @@
 
 </section>
     <!-- ================= FOOTER ================= -->
+<footer class="site-footer">
 
-    <footer>
-    <div class="footer-content">
+    <div class="footer-container">
 
-        <h3>Let's Connect</h3>
+        <!-- Footer Top -->
+        <div class="footer-top">
 
-        <div class="social-links">
-            <a href="https://github.com/mokshapatel1112" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <i class="fab fa-github"></i>
-            </a>
+            <!-- Brand -->
+            <div class="footer-brand">
+                <h2>Moksha Patel</h2>
+                <p>
+                    Computer Science & Engineering Student
+                    <br>
+                    Learning, building & growing.
+                </p>
+            </div>
 
-            <a href="https://www.linkedin.com/in/moksha-patel-945558306/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
 
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#education">Education</a>
+                    <a href="#certificates">Certificates</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
 
-                <i class="fab fa-linkedin"></i>
-            </a>
+            <!-- Connect -->
+            <div class="footer-connect">
+                <h3>Let's Connect</h3>
 
-            <a href="mailto:moxapatel1112@gmail.com" rel="noopener noreferrer" aria-label="Email">
-                <i class="fas fa-envelope"></i>
-            </a>
+                <div class="footer-socials">
+
+                    <a href="https://www.linkedin.com/in/moxapatel" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/moxapatel" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="mailto:moxapatel1112@email.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                </div>
+            </div>
+
         </div>
 
-        <p>© 2026 Moksha | All rights reserved.</p>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
 
-    </div>
-    </footer>
+    <p>© 2026 Moksha Patel. All rights reserved.</p>
 
-    <script src="script.js"></script>
-    <button id="back-to-top" class="back-to-top">
+   <button id="back-to-top" class="back-to-top" aria-label="Back to top">
     <i class="fas fa-arrow-up"></i>
 </button>
-</body>
 
+<script src="script.js"></script>
+</div>
+<script src="script.js"></script>
+
+</footer>
+</body>
 </html>
