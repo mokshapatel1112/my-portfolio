@@ -3516,11 +3516,12 @@ h1, h2, h3, p {
     }
 }
 /* =====================================================
-   MOBILE FLOATING CARDS - FINAL FIX
+   MOBILE FLOATING CARDS — FINAL POSITION
    ===================================================== */
 
 @media (max-width: 768px) {
 
+    /* Hero image container */
     .hero-image {
         position: relative !important;
         width: 100% !important;
@@ -3531,27 +3532,32 @@ h1, h2, h3, p {
         margin: 0 auto !important;
     }
 
-    /* PROFILE IMAGE */
+    /* Main photo */
     .hero-image img {
         width: 300px !important;
         height: 300px !important;
         max-width: 300px !important;
         border-radius: 50% !important;
         object-fit: cover !important;
+
         position: relative !important;
         z-index: 2 !important;
+
         border: 3px solid #38BDF8 !important;
         box-shadow: 0 0 25px rgba(56, 189, 248, 0.35) !important;
     }
 
 
-    /* ALL FLOATING CARDS */
+    /* ================================
+       FLOATING CARDS
+       ================================ */
+
     .hero-image .floating-card {
         position: absolute !important;
 
         width: 165px !important;
-        max-width: 165px !important;
         min-width: 165px !important;
+        max-width: 165px !important;
 
         height: 68px !important;
         min-height: 68px !important;
@@ -3564,14 +3570,14 @@ h1, h2, h3, p {
         gap: 8px !important;
 
         background: #0F172A !important;
-        border: 1px solid rgba(56, 189, 248, 0.6) !important;
+        border: 1px solid rgba(56, 189, 248, 0.65) !important;
         border-radius: 15px !important;
 
         z-index: 5 !important;
     }
 
 
-    /* ICON */
+    /* Icon */
     .hero-image .floating-card .floating-icon {
         width: 36px !important;
         height: 36px !important;
@@ -3581,56 +3587,64 @@ h1, h2, h3, p {
         align-items: center !important;
         justify-content: center !important;
 
-        font-size: 17px !important;
         border-radius: 10px !important;
         background: rgba(56, 189, 248, 0.12) !important;
+
         color: #38BDF8 !important;
+        font-size: 17px !important;
     }
 
 
-    /* CARD TEXT */
+    /* Card title */
     .hero-image .floating-card strong {
         display: block !important;
+        color: #fff !important;
         font-size: 11px !important;
         line-height: 1.2 !important;
         white-space: nowrap !important;
     }
 
+
+    /* Card subtitle */
     .hero-image .floating-card small {
         display: block !important;
         margin-top: 4px !important;
+        color: #94A3B8 !important;
         font-size: 8px !important;
         white-space: nowrap !important;
     }
 
 
-    /* ================================================
-       PROBLEM SOLVING - UPPER LEFT
-       ================================================ */
+    /* =================================================
+       PROBLEM SOLVING
+       Mostly OUTSIDE image — only corner overlaps
+       ================================================= */
 
     .hero-image .floating-card.card-left {
         top: 105px !important;
-        left: 0 !important;
+        left: -25px !important;
         right: auto !important;
-        transform: none !important;
+        transform: rotate(-2deg) !important;
     }
 
 
-    /* ================================================
-       WEB DEVELOPMENT - UPPER RIGHT
-       ================================================ */
+    /* =================================================
+       WEB DEVELOPMENT
+       Mostly OUTSIDE image — only corner overlaps
+       ================================================= */
 
     .hero-image .floating-card.card-top {
         top: 55px !important;
-        right: 0 !important;
+        right: -25px !important;
         left: auto !important;
-        transform: none !important;
+        transform: rotate(2deg) !important;
     }
 
 
-    /* ================================================
-       DATA SCIENCE - BOTTOM CENTER
-       ================================================ */
+    /* =================================================
+       DATA SCIENCE
+       Bottom center
+       ================================================= */
 
     .hero-image .floating-card.card-bottom {
         bottom: 25px !important;
@@ -3640,7 +3654,7 @@ h1, h2, h3, p {
     }
 
 
-    /* DECORATIONS */
+    /* Decorative elements */
     .hero-image .tech-symbol,
     .hero-image .tech-dot {
         z-index: 3 !important;
@@ -3648,7 +3662,10 @@ h1, h2, h3, p {
 }
 
 
-/* VERY SMALL PHONES */
+/* =====================================================
+   SMALLER MOBILE SCREENS
+   ===================================================== */
+
 @media (max-width: 380px) {
 
     .hero-image {
@@ -3662,17 +3679,17 @@ h1, h2, h3, p {
 
     .hero-image .floating-card {
         width: 150px !important;
-        max-width: 150px !important;
         min-width: 150px !important;
+        max-width: 150px !important;
     }
 
     .hero-image .floating-card.card-left {
-        left: 0 !important;
+        left: -18px !important;
         top: 110px !important;
     }
 
     .hero-image .floating-card.card-top {
-        right: 0 !important;
+        right: -18px !important;
         top: 60px !important;
     }
 }
